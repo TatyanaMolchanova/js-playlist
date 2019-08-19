@@ -37,7 +37,7 @@
 	];
 
 		var ol = document.createElement('ol');
-		console.log(ol);
+		// console.log(ol);
 		document.body.append(ol);
 		
 
@@ -45,7 +45,6 @@
 
 			var li = document.createElement('li');
 			li.innerText = playList[i].author + " - " + playList[i].song;
-			li.classList.add('abc');
 			ol.appendChild(li);
 
 		}
